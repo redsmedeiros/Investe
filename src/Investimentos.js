@@ -1,5 +1,5 @@
 const investimentos = () => {
-  return <div></div>;
+  return <div>teste</div>;
 };
 
 export default investimentos;
