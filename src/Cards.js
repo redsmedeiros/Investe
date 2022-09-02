@@ -56,7 +56,7 @@ const cards = ()=>{
                            <p><span> Valor de compra: </span> R$ {card.valorCompra} </p>
                            <p><span> Tipo: </span>{card.tipo}</p>
                            <hr></hr>
-                           <h1 style={negativo(card.preco, card.valorCompra)}>{calculo(card.preco,card.valorCompra)}</h1>
+                           <h1 style={negativo(card.preco, card.valorCompra ) ? {color:"#dc143c"} : {color: "#3cb371"}}>{calculo(card.preco,card.valorCompra)}</h1>
                         </div>
                     </div>
                 ))}
