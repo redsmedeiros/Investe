@@ -1,6 +1,6 @@
 .card{
     background-color: white;
-    height: 50px;
+    
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
@@ -9,14 +9,40 @@
 }
 
 .card-titulo{
-    background-color: red;
-    height: 50px;
-    padding: 5px;
+    background-color: white;
+    padding: 0px 15px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #808080;
+    margin: 0 7px;
+    
+}
+
+.card-titulo button{
+    background-color: #8A2BE2 ;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    height: 40px;
+    margin: 17px;
+    width:80px;
 }
 
 .card-body{
-    background-color: green;
-    height: 70px;
+    background-color: white;
+    
 }
+
+.card-conteudo{
+    border: 1px solid #808080;
+    padding:  10px 35px;
+    margin: 30px;
+    
+}
+
+.card-linha{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #808080;
+}
+
