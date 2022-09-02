@@ -29,6 +29,21 @@ const cards = ()=>{
         }
     ]
     
+    const calculo = (atual, compra)=>{
+        let valor = (atual - compra) / atual
+        let percent = valor * 100
+        let resultado = percent.toFixed(2) + "%"
+        
+        return resultado}
+        
+    const negativo = (atual, compra)=>{
+        let valor = (atual - compra) / atual
+        if(valor < 0){
+            return true
+        }
+        return false
+    }
+    
     return(
         <div>
             <div className="cards">
@@ -40,6 +55,8 @@ const cards = ()=>{
                            <p><span> Preço atual: </span>  R$ {card.preco}</p>
                            <p><span> Valor de compra: </span> R$ {card.valorCompra} </p>
                            <p><span> Tipo: </span>{card.tipo}</p>
+                           <hr></hr>
+                           <h1 style={negativo(card.preco, card.valorCompra)}>{calculo(card.preco,card.valorCompra)}</h1>
                         </div>
                     </div>
                 ))}
