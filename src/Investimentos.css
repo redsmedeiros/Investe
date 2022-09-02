@@ -47,7 +47,7 @@
 .card-linha{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid #8b008b;
 }
 
 .card-linha h4{
