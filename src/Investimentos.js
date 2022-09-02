@@ -1,24 +1,33 @@
 import "./Investimentos.css"
+import {useState} from "react"
+
 const investimentos = () => {
     
-    const teste = "teste"
+    
     
     const dados = [
-        {nome: "Tesouro Direto"},
-        {nome: "Vale s.a"}
+        {nome: "Tesouro Direto",
+         qtd: 2
+        },
+        {nome: "Vale s.a",
+         qtd: 5
+        }
     ]
   return <div>
       <div className="card">
           <div className="card-titulo">
               <h1>Carteira</h1>
-              <button>+ Add</button>
+              <button>Ativo</button>
           </div>
           <div className="card-body">
               <div className="card-conteudo">
                   {dados.map((dado)=>(
                       <div className="card-linha">
                           <h4>{dado.nome}</h4>
-                          <button>+</button>
+                          <div className="card-linha-ga">
+                              <h5>Qtd: {dado.qtd} </h5>
+                              <button onClick="()=>{}">+</button>
+                          </div>
                       </div>
                   ))}
               </div>
