@@ -1,6 +1,7 @@
 import "./Investimentos.css"
 import {useState} from "react"
 import Cards from "./Cards"
+import Grafico from "./Grafico"
 
 const investimentos = () => {
     
@@ -51,6 +52,8 @@ const investimentos = () => {
       </div>
       
       <Cards></Cards>
+      
+      <Grafico></Grafico>
   </div>;
 };
 
