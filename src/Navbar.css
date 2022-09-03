@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #8b008b;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.navbar h1{
+    color:white;
+}
