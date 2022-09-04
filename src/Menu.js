@@ -5,24 +5,24 @@ const menu = ()=>{
         <div>
             <div className="navegacao">
                 <ul>
-                    <li className="lista">
+                    <li className="lista-ativa">
                         <a>
-                            <span className="lista">Carteira</span>
+                            <span className="title">Carteira</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista">Investimentos</span>
+                            <span className="title">Investimentos</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista">Estatística</span>
+                            <span className="title">Estatística</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista">Anális3s</span>
+                            <span className="title">Anális3s</span>
                         </a>
                     </li>
                 </ul>
