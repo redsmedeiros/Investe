@@ -7,22 +7,22 @@ const menu = ()=>{
                 <ul>
                     <li className="lista">
                         <a>
-                            <span className="lista"></span>
+                            <span className="lista">Carteira</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista"></span>
+                            <span className="lista">Investimentos</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista"></span>
+                            <span className="lista">Estatística</span>
                         </a>
                     </li>
                     <li className="lista">
                         <a>
-                            <span className="lista"></span>
+                            <span className="lista">Anális3s</span>
                         </a>
                     </li>
                 </ul>
